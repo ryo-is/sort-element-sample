@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./app.js",
     "webpack": "webpack --config ./webpack/config.js --watch",
+    "typings": "cd ./src/ts && typings install",
     "eslint": "eslint --fix --ignore-path .eslintignore -c .eslintrc.json \"./**/*.js\"",
     "tslint": "tslint --fix -e \"src/ts/definitions/**/*.ts\" -e \"src/ts/typings/**/*.ts\" -c tslint.json \"src/ts/**/*.ts\""
   },
@@ -23,6 +24,7 @@
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.1",
     "file-loader": "^1.1.5",
+    "iscroll": "^5.2.0",
     "jquery": "^3.2.1",
     "jquery-ui": "^1.12.1",
     "jquery-ui-touch-punch": "^0.2.3",
@@ -38,6 +40,7 @@
     "style-loader": "^0.19.0",
     "tslint": "^5.7.0",
     "typescript": "^2.5.3",
+    "typings": "^2.1.1",
     "webpack": "^3.8.1"
   },
   "nodemonConfig": {

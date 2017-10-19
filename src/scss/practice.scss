@@ -1,6 +1,36 @@
 @charset "UTF-8";
 
 main {
-  font-size: 18px;
+  font-size: 32px;
   width: 100%;
+
+  .title {
+    font-size: 48px;
+    margin-left: 30px;
+  }
+
+  ul {
+    height: 80vh;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    width: 48%;
+
+    &.left-list {
+      border-right: 3px solid #cccccc;
+      float: left;
+    }
+
+    &.right-list {
+      float: left;
+    }
+
+    .list-item {
+      background-color: rgba(135, 206, 235, 0.5);
+      border-bottom: 3px solid #000000;
+      line-height: 100px;
+      margin: 0 2%;
+      text-align: center;
+    }
+  }
 }

@@ -8,4 +8,14 @@ html
       script(src="dist/main.js")
   body
     main
-      h1 Practice
+      h1.title Sort Practice
+      section
+        ul.left-list.connectedSortable
+          li.list-item(draggable="true") Content A
+          li.list-item(draggable="true") Content B
+          li.list-item(draggable="true") Content C
+        ul.right-list.connectedSortable
+          li.list-item(draggable="true") Content D
+          li.list-item(draggable="true") Content E
+          li.list-item(draggable="true") Content F
+

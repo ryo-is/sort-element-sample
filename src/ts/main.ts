@@ -1,7 +1,9 @@
 import * as $ from "jquery";
 
+import {SortEvents} from "./sort_events";
+
 const main = () => {
-  console.log("practice");
+  SortEvents.set();
 };
 
 $(window).on("DOMContentLoaded", () => {
