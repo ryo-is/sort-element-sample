@@ -1,0 +1,20 @@
+# IDE settings
+.idea
+
+# Build files
+src/**/*.js
+!src/scss/postcss.config.js
+src/**/*.map
+public/dist
+tests/client/driver.js
+# Dependency directory
+# https://docs.npmjs.com/cli/shrinkwrap#caveats
+node_modules
+src/ts/typings
+reports/**/*
+
+# Debug log from npm
+npm-debug.log
+
+.DS_Store
+

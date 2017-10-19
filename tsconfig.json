@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "allowJs": true
+  },
+  "filesGlob":[
+    "./**/*.ts"
+  ],
+  "include":[
+    "src/**/*.ts",
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "src/ts/typings",
+    "src/ts/definitions"
+  ]
+}
